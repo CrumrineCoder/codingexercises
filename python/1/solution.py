@@ -1,3 +1,5 @@
+from typing import List
+
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
         leftCounter = 0
@@ -11,3 +13,5 @@ class Solution:
                 rightCounter += 1
             
             leftCounter += 1
+        
+        return []  
